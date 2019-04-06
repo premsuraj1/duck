@@ -17,7 +17,9 @@ body {
 }
 
 .text-size{
+  position: relative;
   text-align: center;
+  margin-top: 3% !important;
 }
 
 h1 {
@@ -30,7 +32,9 @@ h2 {
   font-size: 22px;
 }
 
-h3 {
+.text {
+  margin-top: 4% !important;
+  position: relative;
   width: 510px;
   margin-left: 30% !important;
   font-family: sans-serif ;
@@ -41,8 +45,8 @@ img{
   width: 500px;
   position: absolute;
   left: 31%;
-  transform: rotateY(-200deg);
-  top: 20%;
+  transform: rotateY(150deg);
+  top: 0;
 }
 
 body a {
@@ -564,19 +568,28 @@ form{
 
 .container-fluid{
   margin: 0;
+  height: 100%;
   padding: 0;
-  background: url(../images/image1.jpg) no-repeat bottom;
-  background-size: cover;
+}
+
+.footer {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  font-family: sans-serif;
+  bottom: 1%;
 }
 
 .main-top {
-  /*-webkit-background-size: cover;
+   background: url(../images/image1.jpg) no-repeat bottom;
+  background-size: cover;
+  -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   -ms-background-size: cover;
-  min-height: 800px;
-  -webkit-clip-path: polygon(0 0, 100% 0%, 100% 25%, 0 51%);
-  clip-path: polygon(0 0, 100% 0%, 100% 25%, 0 51%);*/
+  min-height: 653px;
+    /*-webkit-clip-path: polygon(0 0, 100% 0%, 100% 25%, 0 51%);
+    clip-path: polygon(0 0, 100% 0%, 100% 25%, 0 51%);*/
 }
 
 footer{
@@ -938,10 +951,6 @@ font-size:14px;
 	
 }
 @media(max-width:1440px){
-
-.main-top {
-    min-height: 680px;
-}	
 .style-banner {
     padding-top: 12.5em;
 }
